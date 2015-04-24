@@ -6,16 +6,18 @@
  Copyright (c) 2015 Katsuma Tanaka. All rights reserved.
  */
 
-"albums.title" = "Foto's";
+"title" = "Foto's";
+"cancel" = "Annuleer";
+"done" = "Klaar";
 
-"assets.footer.photo" = "%ld Foto";
-"assets.footer.photos" = "%ld Foto's";
-"assets.footer.video" = "%ld Video";
-"assets.footer.videos" = "%ld Video's";
-"assets.footer.photo-and-video" = "%ld Foto, %ld Video";
-"assets.footer.photos-and-video" = "%ld Foto's, %ld Video";
-"assets.footer.photo-and-videos" = "%ld Foto, %ld Video's";
-"assets.footer.photos-and-videos" = "%ld Foto's, %ld Video's";
+"format_photo" = "%ld Foto";
+"format_photos" = "%ld Foto's";
+"format_video" = "%ld Video";
+"format_videos" = "%ld Video's";
+"format_photo_and_video" = "%ld Foto, %ld Video";
+"format_photos_and_video" = "%ld Foto's, %ld Video";
+"format_photo_and_videos" = "%ld Foto, %ld Video's";
+"format_photos_and_videos" = "%ld Foto's, %ld Video's";
 
-"assets.toolbar.item-selected" = "%ld Item Geselecteerd";
-"assets.toolbar.items-selected" = "%ld Items Geselecteerd";
+"item_selected" = "%ld Item Geselecteerd";
+"items_selected" = "%ld Items Geselecteerd";

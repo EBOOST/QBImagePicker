@@ -71,6 +71,8 @@
         [self.navigationItem setRightBarButtonItem:nil animated:NO];
     }
     
+    self.doneButton.title = NSLocalizedStringFromTableInBundle(@"done", @"QBImagePicker", self.imagePickerController.assetBundle, nil);
+    
     [self updateDoneButtonState];
     [self updateSelectionInfo];
     

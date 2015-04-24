@@ -24,6 +24,7 @@
 
 @interface QBAlbumsViewController ()
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *doneButton;
 
 @property (nonatomic, copy) NSArray *assetsGroups;
@@ -56,6 +57,9 @@
     // Configure navigation item
     self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"title", @"QBImagePicker", self.imagePickerController.assetBundle, nil);
     self.navigationItem.prompt = self.imagePickerController.prompt;
+    self.cancelButton.title = NSLocalizedStringFromTableInBundle(@"cancel", @"QBImagePicker", self.imagePickerController.assetBundle, nil);
+    self.doneButton.title = NSLocalizedStringFromTableInBundle(@"done", @"QBImagePicker", self.imagePickerController.assetBundle, nil);
+
     
     // Show/hide 'Done' button
     if (self.imagePickerController.allowsMultipleSelection) {
