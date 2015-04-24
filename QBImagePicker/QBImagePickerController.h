@@ -30,6 +30,8 @@ typedef NS_ENUM(NSUInteger, QBImagePickerControllerFilterType) {
 
 @interface QBImagePickerController : UIViewController
 
+@property (nonatomic, strong) UINavigationController *albumsNavigationController;
+
 @property (nonatomic, weak) id<QBImagePickerControllerDelegate> delegate;
 
 @property (nonatomic, copy) NSArray *groupTypes;

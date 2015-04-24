@@ -78,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C9FBA961AEA76F400B6E50A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/QBImagePicker.strings; sourceTree = "<group>"; };
 		AA2107321AD15B74002B3E46 /* QBCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBCheckmarkView.h; sourceTree = "<group>"; };
 		AA2107331AD15B74002B3E46 /* QBCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBCheckmarkView.m; sourceTree = "<group>"; };
 		AA2107341AD15B74002B3E46 /* QBVideoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBVideoIconView.h; sourceTree = "<group>"; };
@@ -426,6 +427,7 @@
 				en,
 				Base,
 				ja,
+				nl,
 			);
 			mainGroup = AACD2EE41AD12DB10029BE0B;
 			productRefGroup = AACD2EEF1AD12DB10029BE0B /* Products */;
@@ -544,6 +546,7 @@
 			children = (
 				AA9EF8A51AD1304100FA72A3 /* Base */,
 				AA9EF8A71AD1304900FA72A3 /* ja */,
+				4C9FBA961AEA76F400B6E50A /* nl */,
 			);
 			name = QBImagePicker.strings;
 			sourceTree = "<group>";
