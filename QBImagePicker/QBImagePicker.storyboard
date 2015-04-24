@@ -100,12 +100,12 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Photos" id="4t5-uF-MRQ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="cbn-Ia-Fnc">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="cbn-Ia-Fnc">
                             <connections>
                                 <action selector="cancel:" destination="zDO-wM-OC0" id="9hi-Vy-Xfp"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="5fb-BM-hBU">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="5fb-BM-hBU">
                             <connections>
                                 <action selector="done:" destination="zDO-wM-OC0" id="fJp-MD-5xJ"/>
                             </connections>
@@ -265,7 +265,7 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" title="Album Title" id="gv1-d8-7Di">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="L0P-B1-xgH">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="L0P-B1-xgH">
                             <connections>
                                 <action selector="done:" destination="LdJ-Fx-WXA" id="wV2-cm-OcD"/>
                             </connections>
