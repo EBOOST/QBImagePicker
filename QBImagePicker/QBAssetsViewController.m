@@ -75,6 +75,7 @@
     
     [self updateDoneButtonState];
     [self updateSelectionInfo];
+    [self.collectionView reloadData];
     
     // Scroll to bottom
     if (self.numberOfAssets > 0 && self.isMovingToParentViewController && !self.disableScrollToBottom) {
