@@ -15,7 +15,6 @@
 @interface QBImagePickerController ()
 
 
-@property (nonatomic, strong) NSMutableOrderedSet *selectedAssets;
 @property (nonatomic, strong) NSBundle *assetBundle;
 
 @end
